@@ -1,0 +1,8 @@
+18ac527 HEAD@{0}: rebase (finish): returning to refs/heads/main
+18ac527 HEAD@{1}: rebase (pick): Initial commit: Claims Intelligence Risk Prioritization System
+a3b3b06 HEAD@{2}: rebase (continue): Initial commit from Create Next App
+358a500 HEAD@{3}: pull origin main --rebase (start): checkout 358a50011d73307d676d8a63f99139e7bd8b9d24
+a57f50f HEAD@{4}: Branch: renamed refs/heads/main to refs/heads/main
+a57f50f HEAD@{6}: Branch: renamed refs/heads/master to refs/heads/main
+a57f50f HEAD@{8}: commit: Initial commit: Claims Intelligence Risk Prioritization System
+6bad32d HEAD@{9}: commit (initial): Initial commit from Create Next App

@@ -1,0 +1,22 @@
+
+> claims-system@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.0 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 2.0s
+  Running TypeScript ...
+Failed to type check.
+
+.next/dev/types/validator.ts:53:39
+Type error: Cannot find module '../../../app/page.js' or its corresponding type declarations.
+
+  51 | {
+  52 |   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
+> 53 |   const handler = {} as typeof import("../../../app/page.js")
+     |                                       ^
+  54 |   type __Check = __IsExpected<typeof handler>
+  55 |   // @ts-ignore
+  56 |   type __Unused = __Check
+Next.js build worker exited with code: 1 and signal: null
